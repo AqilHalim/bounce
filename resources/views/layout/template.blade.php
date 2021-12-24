@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="{{ asset('template') }}/css/main.css">
     <!-- Custom stylesheet -->
     <!-- Latest compiled and minified CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
 <body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
@@ -88,7 +88,7 @@
                             </ul>
                         </nav>
                     </div>
-                    <div class="header-btns header-btns ms-auto d-xs-inline-flex">
+                    <div class="header-btns  header-btns ms-auto d-none d-xs-inline-flex" >
                         <a class="btn log-in-btn focus-reset" style="display: inline-flex" href="#">
                         Login
                         </a>
