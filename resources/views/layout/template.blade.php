@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>{{ setting('site.title') }}</title>
+    <title>BOUNCE</title>
     <link rel="shortcut icon" href="{{ asset('template') }}/image/favicon.png" type="image/x-icon">
     <!-- Bootstrap , fonts & icons  -->
     <link rel="stylesheet" href="{{ asset('template') }}/css/bootstrap.css">
@@ -88,20 +88,12 @@
                             </ul>
                         </nav>
                     </div>
-                    {{-- <div class="header-btns  header-btns  ms-auto d-none d-xs-inline-flex">
-                        <a class="btn log-in-btn focus-reset" href="#">
-                            Sign In
+                    <div class="header-btns header-btns ms-auto d-xs-inline-flex">
+                        <a class="btn log-in-btn focus-reset" style="display: inline-flex" href="#">
+                        Login
                         </a>
-                        <a class="btn sign-in-btn focus-reset" href="#">
-                            Coba Gratis
-                        </a>
-                    </div> --}}
-                    <div class="header-btns  header-btns ms-auto d-none d-xs-inline-flex">
-                        <a class="btn log-in-btn focus-reset" href="#">
-                            Sign In
-                        </a>
-                        <a class="btn sign-in-btn focus-reset" href="#">
-                            Coba Gratis
+                        <a class="btn sign-in-btn focus-reset" style="display: inline-flex;" href="#">
+                        Coba Gratis
                         </a>
                     </div>
                     <!-- mobile menu trigger -->

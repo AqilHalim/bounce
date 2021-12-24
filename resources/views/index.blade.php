@@ -23,7 +23,7 @@
                                     <button class="btn focus-reset">Coba Gratis</button>
                                 </div>
                             </div>
-                            < </div>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800"
