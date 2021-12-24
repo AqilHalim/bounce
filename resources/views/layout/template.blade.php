@@ -22,7 +22,6 @@
     <link rel="stylesheet" href="{{ asset('template') }}/css/main.css">
     <!-- Custom stylesheet -->
     <!-- Latest compiled and minified CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 </head>
 
 <body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
