@@ -186,14 +186,56 @@
                 </div>
                 <div class="col-lg-4 col-md-8 col-sm-8 order-lg-0 order-0" data-aos="fade-right" data-aos-duration="800"
                     data-aos-once="true">
-                    <div class="content-area-l9-2--image">
+                    <div class="content-area-l9-2--image2">
                         <img src="{{ asset('template') }}/image/landing-9/content-img-2.png" alt="image">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Content Area 5 -->
+
+    <!-- Content Area 6 -->
+    <div class="feature-area-l8-1" style="padding: 50px 0px 250px 0px;">
+        <div class="container">
+            <div class="row feature-area-l8-1__total-item">
+                <div class="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                    <div class="feature-area-l8-1__heading" style="padding-bottom: 50px; text-align: center">
+                        <h2>Inventori Yang Mudah Untuk Digunakan</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
+                            sadipscing elitr, sed diam nonumy eirmod tempor
+                            invidunt ut labore et dolore magna aliquyam erat.</p>
+                    </div>
+                </div>
+                <div class="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
+                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                            Land your dream job faster, without experience.
+                        </div>
+                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+                            Efficiently unleash cross-media information without cross-media value.
+                        </div>
+                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+                            Podcasting operational change management inside of workflows to establish.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Content Area 7 -->
     <div class="testimonial-area-l9-1">
         <div class="container">
             <div class="row justify-content-center">

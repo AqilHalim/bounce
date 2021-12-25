@@ -465,6 +465,7 @@ div#loading img {
 @media (min-width: 480px) {
     .header-btns {
         margin-right: 15px;
+        margin-bottom: 15px;
     }
 }
 
@@ -768,7 +769,7 @@ div#loading img {
         z-index: 99;
         pointer-events: visible;
         border-radius: 0px 0px 15px 15px;
-        border-top: 3px solid #416ff4;
+        border-top: 5px solid #416ff4;
     }
 }
 
@@ -1036,12 +1037,12 @@ div#loading img {
     }
 }
 
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
     .reveal-header {
         padding-top: 15px;
         padding-bottom: 15px;
     }
-}
+} */
 
 .reveal-header .nav-link-item {
     color: #fff !important;
@@ -9454,6 +9455,7 @@ li.sub-menu--item.nav-item-has-children i {
     }
 }
 
+/* image-1 */
 .content-area-l9-2--image {
     position: relative;
 }
@@ -9466,7 +9468,7 @@ li.sub-menu--item.nav-item-has-children i {
     position: absolute;
     content: "";
     border-radius: 18px;
-    border: 2px solid #29CE76;
+    border: 2px solid #0D152E;
     height: 100%;
     width: 100%;
     top: -35px;
@@ -9490,6 +9492,46 @@ li.sub-menu--item.nav-item-has-children i {
 @media (min-width: 1366px) {
     .content-area-l9-2--image:after {
         left: 40px;
+    }
+}
+
+/* image-2 */
+.content-area-l9-2--image2 {
+    position: relative;
+}
+
+.content-area-l9-2--image2 img {
+    width: 100%;
+}
+
+.content-area-l9-2--image2:after {
+    position: absolute;
+    content: "";
+    border-radius: 18px;
+    border: 2px solid #0D152E;
+    height: 100%;
+    width: 100%;
+    top: -35px;
+    right: 40px;
+    z-index: -1;
+    display: none;
+}
+
+@media (min-width: 576px) {
+    .content-area-l9-2--image2:after {
+        display: block;
+    }
+}
+
+@media (min-width: 992px) {
+    .content-area-l9-2--image2:after {
+        right: -40px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .content-area-l9-2--image2:after {
+        right: 40px;
     }
 }
 
@@ -15142,6 +15184,7 @@ li.sub-menu--item.nav-item-has-children i {
     .sign-up-area {
         padding-top: 100px;
         padding-bottom: 100px;
+        display: none !important;
     }
 }
 
@@ -18849,5 +18892,8 @@ li.sub-menu--item.nav-item-has-children i {
     }
 }
 
+.nice-select.form-select {
+    background-image: none;
+}
 
 /*# sourceMappingURL=maps/main.css.map */

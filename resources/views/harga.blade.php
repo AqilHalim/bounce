@@ -435,7 +435,7 @@
                             Bounce POS</p>
                         <div class="integrate-l7-btn">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#exampleModal">Hubungi
+                                data-bs-target="#modal">Hubungi
                                 Kami</button>
                         </div>
                     </div>
@@ -444,7 +444,7 @@
         </div>
     </div>
     <!-- Modal Content -->
-    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
@@ -454,39 +454,39 @@
                                 <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12" data-aos="fade-up"
                                     data-aos-duration="800" data-aos-once="true" style="padding: 30px 0px 50px">
                                     <div class="contact-l9-1__heading text-center">
-                                        <h2 style="color: #81838C">INFORMASI</h2>
+                                        <h2 style="color: #fff">INFORMASI</h2>
                                         <p>Podcasting operational change management inside of workflows to establish a
                                             framework. Taking seamless
                                             key</p>
                                     </div>
                                     <form action="/">
                                         <div class="contact-l9-1__input">
-                                            <div class="form-group name-area">
-                                                <input type="text" class="form-control" placeholder="Nama Lengkap">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Nama Lengkap" require>
                                             </div>
-                                            <div class="form-group email-area">
-                                                <input type="email" class="form-control" placeholder="Email">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Email" require>
                                             </div>
-                                            <div class="form-group name-area">
-                                                <input type="text" class="form-control" placeholder="Nomor Handphone">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Nomor Handphone" require>
                                             </div>
-                                            <div class="form-group email-area">
-                                                <input type="email" class="form-control" placeholder="Status">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Status" require>
                                             </div>
-                                            <div class="form-group name-area">
-                                                <input type="text" class="form-control" placeholder="Nama Bisnis">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Nama Bisnis" require>
                                             </div>
-                                            <div class="form-group email-area">
-                                                <input type="email" class="form-control" placeholder="Jenis Bisnis">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Jenis Bisnis" require>
                                             </div>
-                                            <div class="form-group name-area">
-                                                <input type="text" class="form-control" placeholder="Domisili Bisnis">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="Domisili Bisnis" require>
                                             </div>
-                                            <div class="form-group email-area">
-                                                <input type="email" class="form-control" placeholder="Pesan">
+                                            <div class="form-group">
+                                                <input type="email" class="form-control" placeholder="Pesan" require>
                                             </div>
-                                            <div class="get-start-btn text-center">
-                                                <button class="btn">Kirim</button>
+                                            <div class="text-center">
+                                                <button type="button" class="btn btn-primary rounded-pill" style="padding: 25px 50px 25px 50px; color: #fff">Kirim</button>
                                             </div>
                                         </div>
                                     </form>
