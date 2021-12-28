@@ -13,7 +13,7 @@
                             </h2>
                         </div>
                         <div class="hero-area__btn">
-                            <button class="btn btn--lg focus-reset text-white" style="background-color: #416ff4">Mulai
+                            <button class="btn btn--lg focus-reset text-white" style="background-color: #443DF6">Mulai
                                 dengan Bounce</button>
                         </div>
                     </div>
@@ -208,26 +208,373 @@
                     </div>
                 </div>
                 <div class="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-                    <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                    <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist" style="border-radius: 25px; background: #FBFBFB; padding: 5px">
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</button>
+                            <button class="nav-link active" id="pills-overview-tab" data-bs-toggle="pill" data-bs-target="#pills-overview" type="button" role="tab" aria-controls="pills-overview" aria-selected="true">Overview</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Profile</button>
+                            <button class="nav-link" id="pills-management-tab" data-bs-toggle="pill" data-bs-target="#pills-management" type="button" role="tab" aria-controls="pills-management" aria-selected="false">Management Karyawan</button>
                         </li>
                         <li class="nav-item" role="presentation">
-                            <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</button>
+                            <button class="nav-link" id="pills-table-tab" data-bs-toggle="pill" data-bs-target="#pills-table" type="button" role="tab" aria-controls="pills-table" aria-selected="false">Table Management</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-split-tab" data-bs-toggle="pill" data-bs-target="#pills-split" type="button" role="tab" aria-controls="pills-split" aria-selected="false">Split Bill</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-inventory-tab" data-bs-toggle="pill" data-bs-target="#pills-inventory" type="button" role="tab" aria-controls="pills-inventory" aria-selected="false">Inventory</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="pills-diskon-tab" data-bs-toggle="pill" data-bs-target="#pills-diskon" type="button" role="tab" aria-controls="pills-diskon" aria-selected="false">Diskon & Pajak</button>
                         </li>
                     </ul>
                     <div class="tab-content" id="pills-tabContent">
-                        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                            Land your dream job faster, without experience.
+                        <div class="tab-pane fade show active" id="pills-overview" role="tabpanel" aria-labelledby="pills-overview-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Selesaikan Transaksi Hanya
+                                                        Dengan 3x Tap
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Terima Berbagai Jenis
+                                                        Pesanan Dine-In, Delivery,
+                                                        dan Take Away
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
                         </div>
-                        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                            Efficiently unleash cross-media information without cross-media value.
+                        <div class="tab-pane fade" id="pills-management" role="tabpanel" aria-labelledby="pills-management-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Data Sensitif Aman Dengan
+                                                        PIN Khusus
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Sistem Absensi yang
+                                                        Terintegrasi
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
                         </div>
-                        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                            Podcasting operational change management inside of workflows to establish.
+                        <div class="tab-pane fade" id="pills-table" role="tabpanel" aria-labelledby="pills-table-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Data Akurat Status Meja
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Penyajian Pesanan Akurat
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
+                        </div>
+                        <div class="tab-pane fade" id="pills-split" role="tabpanel" aria-labelledby="pills-split-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Tingkatkan Kepuasan
+                                                        Pelanggan dengan Transaksi
+                                                        yang Mudah
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Gunakan Berbagai Metode
+                                                        Pembayaran
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
+                        </div>
+                        <div class="tab-pane fade" id="pills-inventory" role="tabpanel" aria-labelledby="pills-inventory-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Input Resep Makanan
+                                                        dan Minuman
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Tracking Bahan Baku
+                                                        Otomatis
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
+                        </div>
+                        <div class="tab-pane fade" id="pills-diskon" role="tabpanel" aria-labelledby="pills-diskon-tab">
+                            <!-- Content Area Nav Tab -->
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Hitung Biaya Pajak dan
+                                                        Service Tanpa Ribet
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="content-area-2">
+                                <div class="container">
+                                    <div class="row justify-content-center align-items-center">
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-right" data-aos-duration="800"
+                                            data-aos-once="true">
+                                            <div class="content-image-group-1">
+                                                <div class="image__1">
+                                                    <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
+                                                        alt="image">
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800" data-aos-once="true">
+                                            <div class="content">
+                                                <div class="section__heading">
+                                                    <h3>Berikan Diskon Otomatis
+                                                    </h3>
+                                                    <p>Aplikasi POS yang telah dikembangkan untuk memberikan kemudahan pada proses setup serta tampilan yang 
+                                                        mudah dipelajari oleh semua pengguna
+                                                    </p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- /Content Area Nav Tab -->
                         </div>
                     </div>
                 </div>

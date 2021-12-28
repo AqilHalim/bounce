@@ -435,7 +435,7 @@
                             Bounce POS</p>
                         <div class="integrate-l7-btn">
                             <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#modal">Hubungi
+                                data-bs-target="#modal_help" style="background: #443DF6">Hubungi
                                 Kami</button>
                         </div>
                     </div>
@@ -444,7 +444,7 @@
         </div>
     </div>
     <!-- Modal Content -->
-    <div class="modal fade" id="modal" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal fade" id="modal_help" tabindex="-1" aria-labelledby="modal_helpLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered">
             <div class="modal-content">
                 <div class="modal-body">
@@ -499,3 +499,56 @@
         </div>
     </div>
 @endsection
+
+<!-- <div class="modal-header">
+        <img src="{{ asset('template') }}/image/logo/bounce-black.png" style="width: 100px">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+</div>
+<div class="modal-body">
+    <form class="row g-3">
+        <div class="col-md-6">
+            <label for="inputName2" class="form-label">Nama Lengkap</label>
+            <input type="text" class="form-control" id="inputName2">
+        </div>
+        <div class="col-md-6">
+            <label for="inputPhone2" class="form-label">Nomor Handphone</label>
+            <input type="text" class="form-control" id="inputPhone2">
+        </div>   
+        <div class="col-md-6">
+            <label for="inputEmail2" class="form-label">Email</label>
+            <input type="email" class="form-control" id="inputEmail2">
+        </div>
+        <div class="col-md-6">
+            <label for="inputStatus" class="form-label">Status</label>
+            <select id="inputStatus" class="form-select">
+                <option selected>Choose...</option>
+                <option>Single</option>
+                <option>Maried</option>
+                <option>FWB</option>
+            </select>
+        </div>
+        <div class="col-12">
+            <label for="inputBName" class="form-label">Nama Bisnis</label>
+            <input type="text" class="form-control" id="inputBName">
+        </div>
+        <div class="col-md-6">
+            <label for="inputBType" class="form-label">Jenis Bisnis</label>
+            <select id="inputBType" class="form-select">
+                <option selected>Choose...</option>
+                <option>...</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label for="inputBDomicile" class="form-label">Domisili Bisnis</label>
+            <input type="text" class="form-control" id="inputBDomicile">
+        </div>
+        <div class="col-12">
+            <label for="inputMessage" class="form-label">Zip</label>
+            <textarea class="form-control" id="inputMessage" rows="3">
+        </div>
+    </form>
+</div>
+<div class="modal-footer">
+        <button type="button" class="btn btn-success" data-bs-target="#modal_register" data-bs-toggle="modal" data-bs-dismiss="modal" style="color: #fff">Register</button>
+        <button type="button" class="btn btn-primary" style="color: #fff">Login</button>
+</div> -->

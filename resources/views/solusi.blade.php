@@ -14,7 +14,7 @@
                             </h2>
                         </div>
                         <div class="hero-area__btn">
-                            <button class="btn btn--lg focus-reset text-white" style="background-color: #416ff4">Mulai
+                            <button class="btn btn--lg focus-reset text-white" style="background-color: #443DF6">Mulai
                                 dengan Bounce</button>
                         </div>
                     </div>

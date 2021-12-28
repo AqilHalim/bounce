@@ -1382,17 +1382,17 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .btn--link {
-    color: #416ff4;
+    color: #443DF6 !important;
     font-size: 13px;
     text-transform: uppercase;
     font-weight: 700;
     min-width: 88px;
     letter-spacing: 1.63px;
     line-height: normal;
-    height: 22px;
+    height: 30px;
     padding: 0;
-    border-radius: 0;
-    border-bottom: 2px solid #416ff4;
+    border-radius: 0 !important;
+    border-bottom: 2px solid #443DF6 !important;
     padding: 0px 0px 15px 0px !important;
     margin-top: 40px;
 }
@@ -1423,7 +1423,7 @@ li.sub-menu--item.nav-item-has-children i {
     min-width: 111px;
     height: 46px;
     border-radius: 6px;
-    background-color: #416ff4;
+    background-color: #443DF6;
 }
 
 
@@ -2087,16 +2087,16 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .faq-l9-1 .accordion a:hover {
-    color: #416ff4;
+    color: #443DF6;
 }
 
 .faq-l9-1 .accordion li .active {
-    color: #416ff4 !important;
+    color: #443DF6 !important;
 }
 
 .faq-l9-1 .accordion .active:after {
-    border-right: 3px solid #416ff4 !important;
-    border-bottom: 3px solid #416ff4 !important;
+    border-right: 3px solid #443DF6 !important;
+    border-bottom: 3px solid #443DF6 !important;
 }
 
 .faq-l9-1 .accordion a:after {
@@ -2206,7 +2206,7 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .faq-main-tab-area ul li.active a {
-    color: #416ff4;
+    color: #443DF6;
     font-weight: 700;
 }
 
@@ -4218,9 +4218,9 @@ li.sub-menu--item.nav-item-has-children i {
     min-width: 250px;
     height: 60px;
     border-radius: 6px;
-    background-color: #416ff4;
+    background-color: #443DF6;
     color: #f4f7fa;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 700;
     font-style: normal;
     letter-spacing: 1.63px;
@@ -10749,7 +10749,7 @@ li.sub-menu--item.nav-item-has-children i {
     height: 60px;
     color: #fff;
     border-radius: 6px;
-    background-color: #416ff4;
+    background-color: #443DF6;
 }
 
 @media (min-width: 320px) {
@@ -12260,8 +12260,8 @@ li.sub-menu--item.nav-item-has-children i {
 }
 
 .testimonial-area-2 .next-prev-btn3 .slick-arrow.active {
-    color: #416ff4 !important;
-    border-bottom: 2px solid #416ff4 !important;
+    color: #443DF6 !important;
+    border-bottom: 2px solid #443DF6 !important;
 }
 
 
@@ -18894,6 +18894,19 @@ li.sub-menu--item.nav-item-has-children i {
 
 .nice-select.form-select {
     background-image: none;
+}
+
+.nav-pills .nav-link {
+    border-radius: 20px !important;
+}
+
+.nav-pills .nav-link.active {
+    border-radius: 20px;
+    background-color: #443DF6 !important;
+}
+
+.content__btn {
+    font: #443DF6;
 }
 
 /*# sourceMappingURL=maps/main.css.map */

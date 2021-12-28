@@ -164,20 +164,24 @@
                     <div class="modal-body">
                         <form class="row g-3">
                             <div class="col-md-6">
-                                <label for="inputEmail4" class="form-label">Email</label>
-                                <input type="email" class="form-control" id="inputEmail4">
+                                <label for="inputName" class="form-label">Full Name</label>
+                                <input type="text" class="form-control" id="inputName">
                             </div>
                             <div class="col-md-6">
-                                <label for="inputPassword4" class="form-label">Password</label>
-                                <input type="password" class="form-control" id="inputPassword4">
+                                <label for="inputPhone" class="form-label">Phone Number</label>
+                                <input type="text" class="form-control" id="inputPhone">
+                            </div>   
+                            <div class="col-md-6">
+                                <label for="inputEmail" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="inputEmail">
+                            </div>
+                            <div class="col-md-6">
+                                <label for="inputPassword" class="form-label">Password</label>
+                                <input type="password" class="form-control" id="inputPassword">
                             </div>
                             <div class="col-12">
                                 <label for="inputAddress" class="form-label">Address</label>
-                                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-                            </div>
-                            <div class="col-12">
-                                <label for="inputAddress2" class="form-label">Address 2</label>
-                                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                                <input type="text" class="form-control" id="inputAddress">
                             </div>
                             <div class="col-md-6">
                                 <label for="inputCity" class="form-label">City</label>
@@ -277,7 +281,7 @@
                             <div class="footer-area-list-item get-in-touch-area">
                                 <h4>get in touch</h4>
                                 <p>Contact us any time for getting support.</p>
-                                <h3>bounceteknologi@gmail.com</h3>
+                                <h3>bouncetech@gmail.com</h3>
                                 <ul class="list-unstyled">
                                     <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                     <li><a href="#"><i class="fab fa-twitter"></i></a></li>
