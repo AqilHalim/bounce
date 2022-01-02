@@ -29,7 +29,7 @@
         <div class="site-wrapper overflow-hidden position-relative">
             <!-- Site Header -->
             <!--Site Header Area -->
-            <header class="site-header site-header--menu-center landing-1-menu site-header--absolute site-header--sticky">
+            <header class="site-header site-header--menu-center landing-1-menu site-header--absolute site-header--sticky" style="background: #fff">
                 <div class="container-fluid">
                     <nav class="navbar site-navbar">
                         <!-- Brand Logo-->
