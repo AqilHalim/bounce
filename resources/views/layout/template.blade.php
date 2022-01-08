@@ -20,9 +20,10 @@
         <link rel="stylesheet" href="{{ asset('template') }}/plugins/slick/slick.min.css">
         <!-- Vendor stylesheets  -->
         <link rel="stylesheet" href="{{ asset('template') }}/css/main.css">
-        <!-- Custom stylesheet -->
         <!-- Latest compiled and minified CSS -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/094297dddd.js" crossorigin="anonymous"></script>
     </head>
 
     <body data-theme-mode-panel-active data-theme="light" style="font-family: 'DM Sans', sans-serif;">
@@ -33,7 +34,7 @@
                 <div class="container-fluid">
                     <nav class="navbar site-navbar">
                         <!-- Brand Logo-->
-                        <div class="brand-logo">
+                        <div class="brand-logo" style="margin: 0px;">
                             <a href="/">
                                 <!-- light version logo (logo must be black)-->
                                 <img src="{{ asset('template') }}/image/logo/bounce-black.png" alt=""
@@ -84,10 +85,7 @@
                                         <a href="harga" class="nav-link-item">Harga</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a href="#" class="nav-link-item">Inspirasi</a>
-                                    </li>
-                                    <li class="nav-item">
-                                        <a href="#" class="nav-link-item">Hubungi Kami</a>
+                                        <a href="hubungi_kami" class="nav-link-item">Hubungi Kami</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -96,7 +94,7 @@
                             <a class="btn log-in-btn focus-reset" style="display: inline-flex" data-bs-toggle="modal" data-bs-target="#modal_login">
                             Login
                             </a>
-                            <a class="btn sign-in-btn focus-reset" style="display: inline-flex;" href="#">
+                            <a class="btn sign-in-btn focus-reset" style="display: inline-flex;" data-bs-toggle="modal" data-bs-target="#modal_register">
                             Coba Gratis
                             </a>
                         </div>
@@ -138,7 +136,7 @@
                                     <div class="form-check">
                                         <input class="form-check-input" type="checkbox" id="gridCheck1">
                                         <label class="form-check-label" for="gridCheck1">
-                                            Remeber Me
+                                            Remember Me
                                         </label>
                                     </div>
                                 </div>
@@ -146,8 +144,7 @@
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-success" data-bs-target="#modal_register" data-bs-toggle="modal" data-bs-dismiss="modal" style="color: #fff">Register</button>
-                        <button type="button" class="btn btn-primary" style="color: #fff">Login</button>
+                        <button type="button" class="btn btn-primary" data-bs-dismiss="modal" style="color: #fff">Login</button>
                     </div>
                     </div>
                 </div>
@@ -202,15 +199,15 @@
                                 <div class="form-check">
                                 <input class="form-check-input" type="checkbox" id="gridCheck">
                                 <label class="form-check-label" for="gridCheck">
-                                    Check me out
+                                    I agree to the terms and conditions
                                 </label>
                                 </div>
                             </div>
                         </form>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-target="#modal_login" data-bs-toggle="modal" data-bs-dismiss="modal" style="color: #fff">Back</button>
-                        <button type="button" class="btn btn-success" style="color: #fff">Register</button>
+                        <span style="margin-right: auto;">already have an account? <a class="pointer" data-bs-toggle="modal" data-bs-target="#modal_login" data-bs-dismiss="modal" style="color: #443DF6;">Login</a></span>
+                        <button type="button" class="btn btn-success" data-bs-dismiss="modal" style="color: #fff">Register</button>
                     </div>
                     </div>
                 </div>

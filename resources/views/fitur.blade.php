@@ -35,18 +35,9 @@
         </div>
     </div>
     <!-- Content Area 3 -->
-    <div class="feature-area-l8-1" style="padding: 50px 0px 250px 0px;">
+    <div class="feature-area-l8-1" style="margin-bottom: 70px;">
         <div class="container">
             <div class="row feature-area-l8-1__total-item">
-                <div class="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
-                    <div class="feature-area-l8-1__heading" style="padding-bottom: 50px; text-align: center">
-                        <h2>Inventori Yang Mudah Untuk Digunakan</h2>
-                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat. Lorem ipsum dolor sit amet, consetetur
-                            sadipscing elitr, sed diam nonumy eirmod tempor
-                            invidunt ut labore et dolore magna aliquyam erat.</p>
-                    </div>
-                </div>
                 <div class="col-lg-12 col-sm-12" data-aos="fade-up" data-aos-duration="800" data-aos-once="true">
                     <ul class="nav nav-pills mb-3 nav-fill" id="pills-tab" role="tablist" style="border-radius: 25px; background: #FBFBFB; padding: 5px">
                         <li class="nav-item" role="presentation">
@@ -415,88 +406,6 @@
                                 </div>
                             </div>
                             <!-- /Content Area Nav Tab -->
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <!-- Content Area 4 -->
-    <div class="testimonial-area-l9-1">
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-xxl-6 col-xl-7 col-lg-8 col-md-10">
-                    <div class="section__heading-2 text-center">
-                        <h2>Testimoni</h2>
-                        <p>Kata mereka yang sudah menggunakan Bounce POS untuk kebutuhan bisnis F&B</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
-                    <div class="testimonial-area-l9-1--content bg-position "
-                        style="background: url({{ asset('template') }}/image/landing-9/map.png)">
-                        <div class="testimonial-l9-image-group">
-                            <div class="image-1">
-                                <img src="{{ asset('template') }}/image/landing-9/testimonial-1.png" alt="image">
-                            </div>
-                            <div class="image-2">
-                                <img src="{{ asset('template') }}/image/landing-9/testimonial-2.png" alt="image">
-                            </div>
-                            <div class="image-3">
-                                <img src="{{ asset('template') }}/image/landing-9/testimonial-3.png" alt="image">
-                            </div>
-                            <div class="image-4">
-                                <img src="{{ asset('template') }}/image/landing-9/testimonial-4.png" alt="image">
-                            </div>
-                            <div class="image-5">
-                                <img src="{{ asset('template') }}/image/landing-9/testimonial-5.png" alt="image">
-                            </div>
-                        </div>
-                        <div class="row justify-content-center">
-                            <div class="col-xl-5 col-lg-6 col-md-9 col-sm-12">
-                                <div class="slider-l9-main">
-                                    <div class="l9-slider-arrow-2">
-                                        <i class="prev9-1 fas fa-angle-left slick-arrow"></i>
-                                        <i class="next9-1 fas fa-angle-right slick-arrow"></i>
-                                    </div>
-                                    <div class="testimonial-slider-l9-1">
-                                        <div class="single-item focus-reset text-center">
-                                            <div class="slider-image">
-                                                <img src="{{ asset('template') }}/image/landing-9/testimonial-6.png"
-                                                    alt="image">
-                                            </div>
-                                            <div class="slider-content">
-                                                <div class="quote-icon">
-                                                    <i class="fas fa-quote-left"></i>
-                                                </div>
-                                                <p>"John helped us deliver a successful update to a responsive design. His
-                                                    willingness to see the job through is a great."</p>
-                                            </div>
-                                            <div class="user-identity">
-                                                <span>- Ann Franks</span>
-                                            </div>
-                                        </div>
-                                        <div class="single-item focus-reset text-center">
-                                            <div class="slider-image">
-                                                <img src="{{ asset('template') }}/image/landing-9/testimonial-5.png"
-                                                    alt="image">
-                                            </div>
-                                            <div class="slider-content">
-                                                <div class="quote-icon">
-                                                    <i class="fas fa-quote-left"></i>
-                                                </div>
-                                                <p>"John helped us deliver a successful update to a responsive design. His
-                                                    willingness to see the job through is a great."</p>
-                                            </div>
-                                            <div class="user-identity">
-                                                <span>- Ann Franks</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

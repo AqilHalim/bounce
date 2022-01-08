@@ -426,7 +426,7 @@
     <!-- Content Area 4 -->
     <div class="integration-area-l7-1">
         <div class="container">
-            <div class="row integrate-l7-content justify-content-center">
+            <div class="row integrate-l7-content justify-content-center" style="padding-top: 0px;">
                 <div class="col-xxl-4 col-xl-5 col-lg-6 col-md-9" data-aos="zoom-in" data-aos-duration="800"
                     data-aos-once="true">
                     <div class="section__heading text-center">
@@ -434,64 +434,7 @@
                         <p>Hubungi customer care kami untuk mendapatkan informasi lebih lanjut tentang produk dan layanan
                             Bounce POS</p>
                         <div class="integrate-l7-btn">
-                            <button type="button" class="btn btn-primary" data-bs-toggle="modal"
-                                data-bs-target="#modal_help" style="background: #443DF6">Hubungi
-                                Kami</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Modal Content -->
-    <div class="modal fade" id="modal_help" tabindex="-1" aria-labelledby="modal_helpLabel" aria-hidden="true">
-        <div class="modal-dialog modal-lg modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-body">
-                    <div class="contact-l9-1 bg-bunting-aprx">
-                        <div class="container">
-                            <div class="row justify-content-center">
-                                <div class="col-xxl-7 col-xl-8 col-lg-9 col-md-12" data-aos="fade-up"
-                                    data-aos-duration="800" data-aos-once="true" style="padding: 30px 0px 50px">
-                                    <div class="contact-l9-1__heading text-center">
-                                        <h2 style="color: #fff">INFORMASI</h2>
-                                        <p>Podcasting operational change management inside of workflows to establish a
-                                            framework. Taking seamless
-                                            key</p>
-                                    </div>
-                                    <form action="/">
-                                        <div class="contact-l9-1__input">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Nama Lengkap" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Email" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Nomor Handphone" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Status" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Nama Bisnis" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Jenis Bisnis" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Domisili Bisnis" require>
-                                            </div>
-                                            <div class="form-group">
-                                                <input type="email" class="form-control" placeholder="Pesan" require>
-                                            </div>
-                                            <div class="text-center">
-                                                <button type="button" class="btn btn-primary rounded-pill" style="padding: 25px 50px 25px 50px; color: #fff">Kirim</button>
-                                            </div>
-                                        </div>
-                                    </form>
-                                </div>
-                            </div>
+                            <a href="hubungi_kami"><button type="button" class="btn btn-primary"style="background: #443DF6">Hubungi Kami</button></a>
                         </div>
                     </div>
                 </div>
@@ -499,56 +442,3 @@
         </div>
     </div>
 @endsection
-
-<!-- <div class="modal-header">
-        <img src="{{ asset('template') }}/image/logo/bounce-black.png" style="width: 100px">
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-</div>
-<div class="modal-body">
-    <form class="row g-3">
-        <div class="col-md-6">
-            <label for="inputName2" class="form-label">Nama Lengkap</label>
-            <input type="text" class="form-control" id="inputName2">
-        </div>
-        <div class="col-md-6">
-            <label for="inputPhone2" class="form-label">Nomor Handphone</label>
-            <input type="text" class="form-control" id="inputPhone2">
-        </div>   
-        <div class="col-md-6">
-            <label for="inputEmail2" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail2">
-        </div>
-        <div class="col-md-6">
-            <label for="inputStatus" class="form-label">Status</label>
-            <select id="inputStatus" class="form-select">
-                <option selected>Choose...</option>
-                <option>Single</option>
-                <option>Maried</option>
-                <option>FWB</option>
-            </select>
-        </div>
-        <div class="col-12">
-            <label for="inputBName" class="form-label">Nama Bisnis</label>
-            <input type="text" class="form-control" id="inputBName">
-        </div>
-        <div class="col-md-6">
-            <label for="inputBType" class="form-label">Jenis Bisnis</label>
-            <select id="inputBType" class="form-select">
-                <option selected>Choose...</option>
-                <option>...</option>
-            </select>
-        </div>
-        <div class="col-md-6">
-            <label for="inputBDomicile" class="form-label">Domisili Bisnis</label>
-            <input type="text" class="form-control" id="inputBDomicile">
-        </div>
-        <div class="col-12">
-            <label for="inputMessage" class="form-label">Zip</label>
-            <textarea class="form-control" id="inputMessage" rows="3">
-        </div>
-    </form>
-</div>
-<div class="modal-footer">
-        <button type="button" class="btn btn-success" data-bs-target="#modal_register" data-bs-toggle="modal" data-bs-dismiss="modal" style="color: #fff">Register</button>
-        <button type="button" class="btn btn-primary" style="color: #fff">Login</button>
-</div> -->

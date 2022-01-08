@@ -28,6 +28,14 @@ Route::get('/harga', function () {
     return view('harga');
 });
 
+Route::get('/hubungi_kami', function () {
+    return view('hubungi');
+});
+
+Route::get('/mvc', function () {
+    return view('landing');
+});
+
 // Route::group(['prefix' => 'admin'], function () {
 //     Voyager::routes();
 // });

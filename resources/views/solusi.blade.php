@@ -9,7 +9,7 @@
                 <div class="col-xl-7 col-lg-10" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
                     <div class="hero-area-content">
                         <div class="hero-area__title">
-                            <h2 class="text-black">Kelola Coffee Shop Anda
+                            <h2 class="text-white">Kelola Coffee Shop Anda
                                 dalam Satu Aplikasi
                             </h2>
                         </div>

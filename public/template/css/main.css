@@ -1336,7 +1336,7 @@ li.sub-menu--item.nav-item-has-children i {
 
 /* .btn:hover {
     color: #fff !important;
-} */
+}  */
 
 .btn:focus {
     box-shadow: 0;
@@ -1426,11 +1426,9 @@ li.sub-menu--item.nav-item-has-children i {
     background-color: #443DF6;
 }
 
-
-
-/* .landing-1-menu .sign-in-btn:hover {
+.landing-1-menu .sign-in-btn:hover {
     color: #fff;
-} */
+}
 
 .landing-2-menu .sign-in-btn {
     background-color: #416ff4;
@@ -4219,7 +4217,7 @@ li.sub-menu--item.nav-item-has-children i {
     height: 60px;
     border-radius: 6px;
     background-color: #443DF6;
-    color: #f4f7fa;
+    color: #f4f7fa !important;
     font-size: 15px;
     font-weight: 700;
     font-style: normal;
@@ -18908,5 +18906,7 @@ li.sub-menu--item.nav-item-has-children i {
 .content__btn {
     font: #443DF6;
 }
+
+.pointer {cursor: pointer;}
 
 /*# sourceMappingURL=maps/main.css.map */
