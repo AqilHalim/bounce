@@ -1,42 +1,36 @@
 @extends('layout.template')
-
+<style>
+    .content-area-2 {
+        padding: 70px 0px !important;
+    }
+</style>
 @section('content')
     <!-- navbar- -->
     <!-- Content Area 1 -->
-    <div class="content-area-2">
-        <div class="container" style="padding-top: 30px">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
-                    data-aos-once="true">
-                    <div class="content">
-                        <div class="section__heading">
-                            <h2>Mulai Bisnis Impian
-                                Anda Bersama Bounce
-                            </h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore
-                                et dolore magna aliquyam erat.</p>
+    <div class="hero-area hero--area-curve text-center bg-position  position-relative" style="margin-bottom: 100px;">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-xl-7 col-lg-10" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+                    <div class="hero-area-content">
+                        <div class="hero-area__title">
+                            <h2 class="text-black">Mulai Bisnis Impian Anda Bersama Bounce</h2>
                         </div>
-                        <div class="content__btn">
-                            <div class="col-lg-12">
-                                <div class="feature-l2-try-btn">
-                                    <button class="btn focus-reset">Coba Gratis</button>
-                                </div>
-                            </div>
-                            </div>
+                        <div class="hero-area__btn">
+                            <button class="btn btn--lg focus-reset text-white" style="background-color: #443DF6">Coba Gratis</button>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-10 col-sm-12" data-aos="fade-left" data-aos-duration="800"
-                        data-aos-once="true">
-                        <div class="content-image-group-1">
-                            <div class="image__1">
-                                <img class="w-100" src="{{ asset('template') }}/image/landing-1/chart-img-1.png"
-                                    alt="image">
+                </div>
+                <div class="video-content-area-l4">
+                    <div class="row">
+                        <div class="col-lg-12" data-aos="zoom-in" data-aos-duration="800" data-aos-once="true">
+                            <div class="video-l4-area bg-position  text-center"
+                                style="background: url({{ asset('template') }}/image/landing-4/video-bg.png);">
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
         </div>
         <!-- Content Area 2 -->
         <div class="content-area-2">

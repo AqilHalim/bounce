@@ -32,7 +32,7 @@ Route::get('/hubungi_kami', function () {
     return view('hubungi');
 });
 
-Route::get('/mvc', function () {
+Route::get('/mvp', function () {
     return view('landing');
 });
 
