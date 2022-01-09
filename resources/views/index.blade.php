@@ -13,7 +13,7 @@
                             <h2>Mulai Bisnis Impian
                                 Anda Bersama Bounce
                             </h2>
-                            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+                            <p>LOREMMMMMMm dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
                                 invidunt ut labore
                                 et dolore magna aliquyam erat.</p>
                         </div>
