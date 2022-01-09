@@ -7,7 +7,6 @@
 @section('content')
     <!-- navbar- -->
     <!-- Content Area 1 -->
-<<<<<<< HEAD
     <div class="hero-area hero--area-curve text-center bg-position  position-relative" style="margin-bottom: 100px;">
         <div class="container">
             <div class="row justify-content-center">
@@ -15,21 +14,6 @@
                     <div class="hero-area-content">
                         <div class="hero-area__title">
                             <h2 class="text-black">Mulai Bisnis Impian Anda Bersama Bounce</h2>
-=======
-    <div class="content-area-2">
-        <div class="container" style="padding-top: 30px">
-            <div class="row justify-content-center align-items-center">
-                <div class="col-lg-6 col-md-10 col-sm-12 order-lg-0 order-1" data-aos="fade-right" data-aos-duration="800"
-                    data-aos-once="true">
-                    <div class="content">
-                        <div class="section__heading">
-                            <h2>Mulai Bisnis Impian
-                                Anda Bersama Bounce
-                            </h2>
-                            <p>LOREMMMMMMm dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-                                invidunt ut labore
-                                et dolore magna aliquyam erat.</p>
->>>>>>> 3660b287835f091d5cebbad973c19693e711fb75
                         </div>
                         <div class="hero-area__btn">
                             <button class="btn btn--lg focus-reset text-white" style="background-color: #443DF6">Coba Gratis</button>
